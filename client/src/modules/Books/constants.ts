@@ -1,0 +1,2 @@
+const BOOKS_API_HTTP_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:8081/books' : 'https://ui-auto-training-app.ebms.co/books'
+const MEETINGS_API_HTTP_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:8081/meetings' : 'https://ui-auto-training-app.ebms.co/meetings'
